@@ -1,0 +1,50 @@
+[
+  {
+    "directory": false,
+    "key": "index",
+    "name": "Index",
+    "url": "/index"
+  },
+  {
+    "directory": false,
+    "key": "blacklist",
+    "name": "Blacklist",
+    "url": "/blacklist"
+  },
+  {
+    "directory": false,
+    "key": "files",
+    "name": "Files",
+    "url": "/files"
+  },
+  {
+    "directory": false,
+    "key": "login",
+    "name": "Login",
+    "url": "/login"
+  },
+  {
+    "directory": false,
+    "key": "modal-elements",
+    "name": "Modal Elements",
+    "url": "/modal-elements"
+  },
+  {
+    "directory": false,
+    "key": "notifications",
+    "name": "Notifications",
+    "url": "/notifications"
+  },
+  {
+    "directory": false,
+    "key": "profile",
+    "name": "Profile",
+    "url": "/profile"
+  },
+  {
+    "directory": false,
+    "key": "users",
+    "name": "Users",
+    "url": "/users"
+  }
+]
