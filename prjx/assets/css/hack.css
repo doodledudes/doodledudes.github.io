@@ -1,4 +1,17 @@
-.btn {
-  border-radius: 0;
-  -moz-border-radius: 0;
+.btn,
+.well,
+.btn-group,
+.modal-content,
+nav.navbar,
+div.jumbotron {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+nav.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  border: 0;
+}
+.jumbotron {
+  background: rgba(255, 255, 255, 0.5);
 }
