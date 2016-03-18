@@ -31,7 +31,7 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
+  /*text-align: center;*/
   text-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 
@@ -47,6 +47,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  text-align: center;
 }
 .cover-container {
   margin-right: auto;

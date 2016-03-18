@@ -3,7 +3,9 @@
 .btn-group,
 .modal-content,
 nav.navbar,
-div.jumbotron {
+div.jumbotron,
+.breadcrumb,
+.dropdown-menu {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
 }
@@ -52,4 +54,10 @@ nav.navbar {
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background: none;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #141414;
 }
