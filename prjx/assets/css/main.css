@@ -99,3 +99,12 @@ footer, footer a {
 .paint--colors .colors._2 {
 	background-color: dimgray;
 }
+
+#carousel.flexslider {
+	display: none;
+}
+@media screen and (min-width: 767px) {
+	#carousel.flexslider {
+		display: block;
+	}
+}
