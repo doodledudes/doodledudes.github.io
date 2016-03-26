@@ -23,6 +23,9 @@ var Main = (function () {
 			});
 
 			var initFolder = "paint_1"
+			$(".paint--colors .colors").css("background-color", function(hex) {
+				return "#"+$(this).attr("data-hex");
+			});
 			$(".paint--colors .colors").click(function() {
 				var folder = $(this).attr("data-color");
 				$(".flexslider ul.slides li img").each(function() {
