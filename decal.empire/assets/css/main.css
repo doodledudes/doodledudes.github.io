@@ -1,5 +1,7 @@
 body {
 	font-family: 'Russo One', sans-serif;
+}
+body, .site-wrapper {
 	/* Use "bg_3.jpg" or "bg_7.jpg"  */
 	background: transparent url("../../assets/images/checkered_plate.jpg") no-repeat center center scroll;
 	background-size: cover;
