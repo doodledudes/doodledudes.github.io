@@ -1,0 +1,21 @@
+{
+  "name": "happi",
+  "description": "Project Dependencies",
+  "main": "gulpfile.js",
+  "authors": [
+    "Rodan Luzuriaga"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.cookie": "https://github.com/carhartl/jquery-cookie.git#~1.4.1",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
