@@ -31,7 +31,7 @@ var Main = (function () {
 			var tails = $('.tails').outerHeight();
 			var timeline = $('.timeline').outerHeight();
 
-			$(window).on('load scroll', function() {
+			$(window).on('load resize', function() {
 				if ( $(this).width() > 991 ) {
 					$('.scroll').height( $(this.top).height() - ( 160 + heads + tails + timeline ) );
 				}
