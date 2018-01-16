@@ -1,0 +1,98 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.ticket-tabs {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.4);
+  box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.4);
+  border-radius: 3px;
+  padding: 10px 20px 15px 20px;
+}
+.ticket-tabs .nav-tabs {
+  border: 0;
+}
+.ticket-tabs .nav {
+  display: flex;
+}
+.ticket-tabs .nav-tabs>li {
+  flex-grow: 1;
+  position: relative;
+}
+.ticket-tabs .nav-tabs>li.active::after {
+  content: '';
+  width: 2px;
+  height: 35px;
+  background: #ff2663;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.ticket-tabs .nav-tabs>li>a {
+  text-align: center;
+  border: 0;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.ticket-tabs .nav-tabs>li>a:hover {
+  background: transparent;
+  border: 0;
+}
+.ticket-tabs .nav-tabs>li>a:hover i {
+  background: #ff2663;
+}
+.ticket-tabs .nav-tabs>li>a i {
+  padding: 8px;
+  border-radius: 50%;
+  background: #cccbce;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+.ticket-tabs .nav-tabs>li.active>a,
+.ticket-tabs .nav-tabs>li.active>a:hover,
+.ticket-tabs .nav-tabs>li.active>a:focus {
+  border: 0;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  background: none;
+}
+.ticket-tabs .nav-tabs>li.active>a i,
+.ticket-tabs .nav-tabs>li.active>a:hover i,
+.ticket-tabs .nav-tabs>li.active>a:focus i {
+  background: #ff2663;
+}
+
+/* TAB CONTENT */
+.ticket-tabs .tab-content {
+  margin-top: 25px;
+}
+.ticket-tabs .tab-content .form-control {
+  border-color: #ff2663;
+  border-radius: 17px;
+  border-width: 2px;
+}
+.ticket-tabs .icon-check {
+  text-align: center;
+  margin-top: 20px;
+}
+.ticket-tabs .icon-check i {
+  font-size: 125px;
+  color: #36deb9;
+  border: 10px solid #36deb9;
+  border-radius: 50%;
+}
+.ticket-tabs .ticket-info {
+  text-align: center;
+}
+@media scree and (min-width: 768px) {
+  .ticket-tabs .ticket-info {
+    text-align: left;
+  }
+}
