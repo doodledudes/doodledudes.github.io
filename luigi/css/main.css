@@ -91,7 +91,7 @@
 .ticket-tabs .ticket-info {
   text-align: center;
 }
-@media scree and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .ticket-tabs .ticket-info {
     text-align: left;
   }
