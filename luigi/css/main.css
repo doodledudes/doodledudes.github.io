@@ -25,10 +25,10 @@
 .ticket-tabs .nav-tabs>li.active::after {
   content: '';
   width: 2px;
-  height: 35px;
+  height: 41px;
   background: #ff2663;
   position: absolute;
-  top: 50px;
+  top: 68px;
   left: 0;
   right: 0;
   margin: auto;
@@ -37,8 +37,7 @@
   text-align: center;
   border: 0;
   margin: 0;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 15px 0 10px 0;
 }
 .ticket-tabs .nav-tabs>li>a:hover {
   background: transparent;
@@ -48,7 +47,7 @@
   background: #ff2663;
 }
 .ticket-tabs .nav-tabs>li>a i {
-  padding: 8px;
+  padding: 15px;
   border-radius: 50%;
   background: #cccbce;
   color: white;
@@ -71,7 +70,7 @@
 
 /* TAB CONTENT */
 .ticket-tabs .tab-content {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .ticket-tabs .tab-content .form-control {
   border-color: #ff2663;
