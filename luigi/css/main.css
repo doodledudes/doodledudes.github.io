@@ -33,6 +33,9 @@
   right: 0;
   margin: auto;
 }
+.ticket-tabs .nav-tabs>li.active.noline::after {
+  display: none;
+}
 .ticket-tabs .nav-tabs>li>a {
   text-align: center;
   border: 0;
@@ -72,20 +75,71 @@
 .ticket-tabs .tab-content {
   margin-top: 30px;
 }
-.ticket-tabs .tab-content .form-control {
+.ticket-tabs .tab-content .input {
+  position: relative;
+}
+.ticket-tabs .tab-content .input input {
   border-color: #ff2663;
   border-radius: 17px;
   border-width: 2px;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance: none;
 }
-.ticket-tabs .icon-check {
+.ticket-tabs .tab-content .input.file input {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.ticket-tabs .tab-content .input.file {
+  border: 2px solid #ff2663;
+  border-radius: 17px;
+  height: 34px;
+  padding: 6px 12px;
+}
+.ticket-tabs .tab-content .input.file::before {
+  content: 'Plase use CSV file';
+  color: #f3688f;
+  position: absolute;
+  z-index: 1;
+}
+.ticket-tabs .tab-content .input.file::after {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e027";
+  z-index: 1;
+  color: #f3688f;
+  font-size: 22px;
+}
+.ticket-tabs .icon i {
+  font-size: 125px;
+  border: 10px solid;
+  border-radius: 50%;
   text-align: center;
   margin-top: 20px;
 }
-.ticket-tabs .icon-check i {
-  font-size: 125px;
+.ticket-tabs .icon.check i {
   color: #36deb9;
-  border: 10px solid #36deb9;
-  border-radius: 50%;
+  border-color: #36deb9;
+}
+.ticket-tabs .icon.clear i {
+  color: #F44336;
+  border-color: #F44336;
+}
+.ticket-tabs .icon.info i {
+  color: #2196F3;
+  border-color: #2196F3;
 }
 .ticket-tabs .ticket-info {
   text-align: center;
@@ -94,4 +148,15 @@
   .ticket-tabs .ticket-info {
     text-align: left;
   }
+}
+.ticket-tabs .tab-content .progress {
+  height: 5px;
+  margin-top: 10px;
+  width: 94%;
+  margin: 10px auto;
+}
+.ticket-tabs .tab-content .progress-bar {
+  -webkit-box-shadow: none;
+   box-shadow: none;
+  -webkit-transition: none;
 }
