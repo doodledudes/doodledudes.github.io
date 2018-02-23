@@ -5,12 +5,15 @@
    ========================================================================== */
 
 
-.ticket-tabs {
+.ticket-tabs, .card {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.4);
   -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.4);
   box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.4);
   border-radius: 3px;
   padding: 10px 20px 15px 20px;
+  width: 555px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .ticket-tabs .nav-tabs {
   border: 0;
@@ -184,6 +187,16 @@
   font-size: 22px;
 }
 
+/* LOGIN */
+.card .login {
+  padding: 20px 0;
+}
+.forgot-password-link {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #ff2663;
+}
+
 
 .form-control:focus {
   border-color: #ff2663;
@@ -196,4 +209,18 @@
   -moz-appearance: none;
   appearance: none;
   border-radius: 23px;
+}
+.form-group:last-child {
+  margin-bottom: 0;
+}
+.btn {
+  border-radius: 23px;
+}
+.btn-success {
+  background: #ff2663;
+  border-color: #ef3469;
+}
+.btn-success:hover {
+  background: #ef3469;
+  border-color: #ff2663;
 }
