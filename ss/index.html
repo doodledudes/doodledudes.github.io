@@ -18,7 +18,8 @@
     <!-- inject:css-->
     <link rel="stylesheet" href="assets/css/ie10-viewport-bug-workaround.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- endinject--><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- endinject-->
+    <link rel="stylesheet" href="//rawgit.com/enyo/dropzone/master/dist/dropzone.css"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
 <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -27,17 +28,16 @@
   </head>
   <body>
     <aside class="menu">
-      <div class="logo"><img src="assets/images/logo.png">
-        <div class="text"><span class="_1">Singapore</span><span class="_2">School</span></div>
-      </div>
+      <div class="logo"><a href="index.html"><img src="assets/images/logo.png">
+          <div class="text"><span class="_1">Singapore</span><span class="_2">School</span></div></a></div>
       <ul class="nav flex-column">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Bulk Upload</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Student List</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">User Maintenance</a></li>
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="bulk.html">Bulk Upload</a></li>
+        <li class="nav-item"><a class="nav-link" href="students.html">Student List</a></li>
+        <li class="nav-item"><a class="nav-link" href="maintenance.html">User Maintenance</a></li>
       </ul>
       <ul class="nav flex-column">
-        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-barcode"></i>&nbsp;Scan Page</a></li>
+        <li class="nav-item"><a class="nav-link" href="scan.html"><i class="fa fa-barcode"></i>&nbsp;Scan Page</a></li>
       </ul>
       <hr>
       <ul class="nav flex-column">
@@ -100,6 +100,7 @@
     <script src="assets/scripts/ie10-viewport-bug-workaround.js"></script>
     <script src="assets/scripts/main.js"></script>
     <!-- endinject-->
+    <script src="//rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
     <script>
       $(document).ready(function() {
       
